@@ -57,5 +57,10 @@ var createBoard = function(){
 
 
 }
+ var resetPage = function(){
+ 	location.reload(true);
+
+ }
 
 createBoard();
+document.getElementById('reset').addEventListener('click', resetPage);
